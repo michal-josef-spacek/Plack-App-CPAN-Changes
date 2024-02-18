@@ -14,7 +14,7 @@ author_requires 'Test::NoWarnings' => 0;
 author_requires 'Test::Pod' => 0;
 author_requires 'Test::Pod::Coverage' => 0;
 license 'bsd';
-name 'Plack-App-Changes';
+name 'Plack-App-CPAN-Changes';
 perl_version 5.008;
 readme_from 'Changes.pm';
 recursive_author_tests('xt');
