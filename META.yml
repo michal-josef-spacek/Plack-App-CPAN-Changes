@@ -23,6 +23,7 @@ meta-spec:
 name: Plack-App-CPAN-Changes
 no_index:
   directory:
+    - examples
     - inc
     - t
     - xt
