@@ -190,12 +190,12 @@ $app = Plack::App::CPAN::Changes->new(
 );
 $test = Plack::Test->create($app);
 $res = $test->request(HTTP::Request->new(GET => '/'));
-$right_ret = <<'END';
+$right_ret = <<"END";
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="generator" content="Plack::App::CPAN::Changes; Version: 0.01"
+    <meta name="generator" content="Plack::App::CPAN::Changes; Version: $Plack::App::CPAN::Changes::VERSION"
       />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
