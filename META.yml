@@ -3,7 +3,12 @@ abstract: 'Plack application for CPAN::Changes object.'
 author:
   - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
+  CPAN::Changes: 0
+  CSS::Struct::Output::Indent: 0
   ExtUtils::MakeMaker: 6.59
+  HTTP::Request: 0
+  Plack::Test: 0
+  Tags::Output::Indent: 0
   Test::More: 0
   Test::NoWarnings: 0
 configure_requires:

@@ -19,5 +19,6 @@ META.yml
 README
 t/Plack-App-CPAN-Changes/01-use.t
 t/Plack-App-CPAN-Changes/02-version.t
+t/Plack-App-CPAN-Changes/03-general.t
 xt/Plack-App-CPAN-Changes/01-pod_coverage.t
 xt/Plack-App-CPAN-Changes/02-pod.t
