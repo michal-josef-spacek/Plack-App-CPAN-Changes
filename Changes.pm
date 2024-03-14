@@ -33,11 +33,12 @@ sub _prepare_app {
 	$self->SUPER::_prepare_app;
 
 	# Defaults from this module.
-	my %p = (
+	$self->{'_tags_changes'} = Tags::HTML::CPAN::Changes->new(
 		'css' => $self->css,
 		'tags' => $self->tags,
 	);
-	$self->{'_tags_changes'} = Tags::HTML::CPAN::Changes->new(%p);
+
+	# Set CPAN::Changes object to present.
 	if (defined $self->changes) {
 		$self->{'_tags_changes'}->init($self->changes);
 	}
