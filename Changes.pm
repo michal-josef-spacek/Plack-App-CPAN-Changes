@@ -5,7 +5,7 @@ use strict;
 use warnings;
 
 use Plack::Util::Accessor qw(changes generator title);
-use Tags::HTML::CPAN::Changes;
+use Tags::HTML::CPAN::Changes 0.06;
 
 our $VERSION = 0.04;
 
