@@ -20,7 +20,7 @@ readme_from 'Changes.pm';
 recursive_author_tests('xt');
 requires 'Plack::Component::Tags::HTML' => 0;
 requires 'Plack::Util::Accessor' => 0;
-requires 'Tags::HTML::CPAN::Changes' => 0.02;
+requires 'Tags::HTML::CPAN::Changes' => 0.06;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Plack-App-CPAN-Changes/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Plack-App-CPAN-Changes';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Plack-App-CPAN-Changes';

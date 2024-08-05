@@ -30,7 +30,7 @@ no_index:
 requires:
   Plack::Component::Tags::HTML: 0
   Plack::Util::Accessor: 0
-  Tags::HTML::CPAN::Changes: 0.02
+  Tags::HTML::CPAN::Changes: 0.06
   perl: 5.8.0
 resources:
   bugtracker: https://github.com/michal-josef-spacek/Plack-App-CPAN-Changes/issues
