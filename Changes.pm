@@ -74,6 +74,11 @@ Plack::App::CPAN::Changes - Plack application to view CPAN::Changes object.
  my $psgi_ar = $obj->call($env);
  my $app = $obj->to_app;
 
+=head1 DESCRIPTION
+
+Plack application which prints changelog record. Record is defined by
+L<CPAN::Changes> object, which is created from some file (like Changes) in CPAN distribution.
+
 =head1 METHODS
 
 =head2 C<new>

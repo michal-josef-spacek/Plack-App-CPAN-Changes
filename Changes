@@ -1,4 +1,5 @@
 0.04
+ - Add DESCRIPTION section to doc.
  - Add example image to doc.
  - Add explicit version of Tags helper to use.
 
