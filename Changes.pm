@@ -7,7 +7,7 @@ use warnings;
 use Plack::Util::Accessor qw(changes generator title);
 use Tags::HTML::CPAN::Changes 0.06;
 
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 sub _css {
 	my ($self, $env) = @_;
@@ -302,6 +302,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.04
+0.05
 
 =cut
