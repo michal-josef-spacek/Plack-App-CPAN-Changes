@@ -265,6 +265,14 @@ Returns L<Plack::Component> object.
  #   </body>
  # </html>
 
+=begin html
+
+<a href="https://raw.githubusercontent.com/michal-josef-spacek/Plack-App-CPAN-Changes/master/images/app_changes.png">
+  <img src="https://raw.githubusercontent.com/michal-josef-spacek/Plack-App-CPAN-Changes/master/images/app_changes.png" alt="Example screenshot" width="300px" height="300px" />
+</a>
+
+=end html
+
 =head1 DEPENDENCIES
 
 L<Plack::Component::Tags::HTML>,
