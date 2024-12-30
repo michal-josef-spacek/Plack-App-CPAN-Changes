@@ -121,7 +121,7 @@ Default value is L<Tags::Output::Raw>->new('xml' => 1) instance.
 
 Page title.
 
-Default value is 'Login page'.
+Default value is 'Changes'.
 
 =back
 
